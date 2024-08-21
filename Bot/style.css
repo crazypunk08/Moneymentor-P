@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins";
+    background: linear-gradient(#ffdad5, #fff7f9);
+}
+
+.contact-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+}
+
+.contact-left-title h2 {
+    font-weight: 600;
+    color: #a363aa;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+
+.contact-inputs:focus {
+    border: 2px solid #ff994f;
+}
+
+#Final-submit {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
+    cursor: pointer;
+}
+
+#resp{
+    overflow: auto;
+    width: 60vw;
+    height: 70vh;
+    margin-left: 4rem;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size:1.5rem;
+}
+
+.contact-right img {
+    width: 50vw;
+    opacity: 0.8;
+    height:50vh;
+    padding-left: 4rem;
+    padding-top: 4rem;
+}
+
+.personal-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-age {
+    padding-left: 1rem;
+    color: #666;
+    font-weight: 500;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 0.5rem;
+}
+
+.contact-age:focus {
+    border: 2px solid #ff994f;
+}
+
+#contact-status {
+    background-color: #fff;
+    color: #666;
+    font-weight: 500;
+    /* padding-left:1rem; */
+    width: 280px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 4rem;
+}
+
+#contact-risk {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-right: 8em;
+    font-weight: 500;
+    background-color: #fff;
+    color: #666;
+    border-radius: 50px;
+}
+
+
+.contact-status:focus {
+    border: 2px solid #ff994f;
+}
+
+.navbar ul {
+    padding-top: 1rem;
+    width: 25%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 0;
+    right: 0;
+    font-weight: 600;
+    color: #a363aa;
+    font-size: 1.5rem;
+    cursor:pointer;
+}
+
+.navbar ul li:hover{
+    text-decoration: underline;
+}
+
+.setbg{
+    width: 20vw;
+    height: 20vh;
+    background-image: url('https://i.gifer.com/HI9M.gif'); /* Replace with your GIF URL */
+    background-size: cover; /* Ensures the background covers the entire div */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+    background-position: center
+}
+
+/* Styling Classes to be added */
+
+.data-body{
+    display: none;
+}
+
+.Addbg{
+    background-color:rgba(255 255, 255, 0.5);
+    border-radius: 0.5rem;
+}
+
+.skeleton {
+    animation: skeleton-loading 1s linear infinite alternate;
+  }
+  
+  .skeleton-top{
+    width: 100%;
+    height: 2rem;
+    margin-top: 1rem;
+  }
+
+  .skeleton-first{
+    margin-top: 2rem;
+  }
+
+  .skeleton-text {
+    width: 100%;
+    height: 1rem;
+    margin-bottom: .25rem;
+    border-radius: .125rem;
+  }
+  
+  .skeleton-text:last-child {
+    margin-bottom: 0;
+    width: 80%;
+  }
+  
+  @keyframes skeleton-loading {
+    0% {
+        background-color:hsl(200, 20%, 70%);
+    }
+
+    /* 25%{
+        background-color:hsl(200, 20%, 80%);
+    }
+
+    50%{
+        background-color:hsl(200, 20%, 90%);
+    } */
+  
+    100% {
+        background-color:hsl(200, 20%, 100);
+    }
+  }
+  
+  

@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.bg-blue{
+    color:blue;
+}
+
+.icon{
+    height:32px;
+    width:32px;
+    margin-bottom: 6px;
+}
